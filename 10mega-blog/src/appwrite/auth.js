@@ -1,4 +1,4 @@
-import conf from "../config/config";
+import conf from "../config/conf";
 import { Client, Account, ID } from "appwrite";
 
 export class AuthService {
@@ -55,7 +55,7 @@ export class AuthService {
       throw error;
     } 
   }
-  
+
 }
 
 const authService = new AuthService();
